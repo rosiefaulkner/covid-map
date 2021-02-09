@@ -19,7 +19,7 @@ export class NavigationBar extends React.Component {
   render() {
     return (
       <nav>
-        <img src = {this.GetLogo(60)} alt = ""/>
+        <img src={this.GetLogo(60)} alt = ""/>
         {links.map((link) => (
           <NavLink className={activeStyle} to="/">
             {link + " | "}
