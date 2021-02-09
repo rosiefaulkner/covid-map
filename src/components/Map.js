@@ -1,59 +1,56 @@
 import React from "react";
-import { MapContainer, TileLayer, Marker, Popup} from "react-leaflet";
-import {NavigationBar} from './NavigationBar';
-import L from 'leaflet';
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { NavigationBar } from "./NavigationBar";
+import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+
 
 const position = [39.8283, -98.5795];
 const zoom = "5";
-const height = { height: "75vh" };
-const markers = "./images/marker-icon.png";
-
+const dragging = true;
+const height = { height: "100vh" };
 export class Map extends React.Component {
-  state = {
-    loading: true,
-    state: null,
-  };
-
-  async componentDidMount() {
-    const url = "https://api.covidtracking.com/v1/states/current.json";
-    const response = await fetch(url);
-    const data = await response.json();
-    this.setState({ state: data.state });
+  constructor() {
+    super();
+    this.state = {
+      coords: [
+        { lat: 32.9866, lng: -83.6487 },
+        { lat: 42.0046, lng: -93.2140 },
+        { lat: 44.2394, lng: -114.5103 }
+      ]
+    };
   }
 
-  GetIcon(_iconSize){
+  GetIcon(_iconSize) {
     return L.icon({
       iconUrl: require("./icons/marker.png"),
-      iconSize: [_iconSize]
+      iconSize: [_iconSize],
     });
   }
-
   render() {
+    const { coords } = this.state;
     return (
       <>
-      <NavigationBar />
+        <NavigationBar />
         <MapContainer
           center={position}
           zoom={zoom}
-          scrollWheelZoom={false}
           style={height}
-        >          
-            <TileLayer
+          dragging={dragging}
+        >
+          <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
           />
-          <Marker position={position} icon={this.GetIcon(40)}>
-            <Popup>
-              Location of Marker
-            </Popup>
-          </Marker>
+
+          {coords.map(({ lat, lng }, index) => (
+            <Marker position={[lat, lng]} icon={this.GetIcon(40)} key={index}>
+              <Popup>
+                {index + 1} is for popup with lat: {lat} and lon {lng}. 17,000 vaccinations today.
+              </Popup>
+            </Marker>
+          ))}
         </MapContainer>
-        {this.state.loading ? (
-          <div>loading...</div>
-        ) : (
-          <div>{this.state.state}</div>
-        )}
       </>
     );
   }
