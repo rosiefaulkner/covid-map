@@ -662,7 +662,7 @@
       "total_allocation_moderna_second_dose_shipments": "562,500"
     },
     {
-      "jurisdiction": "Minnesota***",
+      "jurisdiction": "Minnesota",
       "hhs_region": "Region 5",
       "doses_allocated_week_12_21": "94,900",
       "second_dose_shipment_12_21": "94,900",
@@ -706,7 +706,7 @@
       "total_allocation_moderna_second_dose_shipments": "653,800"
     },
     {
-      "jurisdiction": "Wisconsin***",
+      "jurisdiction": "Wisconsin",
       "hhs_region": "Region 5",
       "doses_allocated_week_12_21": "101,000",
       "second_dose_shipment_12_21": "101,000",
@@ -772,7 +772,7 @@
       "total_allocation_moderna_second_dose_shipments": "257,800"
     },
     {
-      "jurisdiction": "New Mexico***",
+      "jurisdiction": "New Mexico",
       "hhs_region": "Region 6",
       "doses_allocated_week_12_21": "36,100",
       "second_dose_shipment_12_21": "36,100",
@@ -948,7 +948,7 @@
       "total_allocation_moderna_second_dose_shipments": "341,100"
     },
     {
-      "jurisdiction": "Nebraska***",
+      "jurisdiction": "Nebraska",
       "hhs_region": "Region 7",
       "doses_allocated_week_12_21": "32,400",
       "second_dose_shipment_12_21": "32,400",
@@ -1014,7 +1014,7 @@
       "total_allocation_moderna_second_dose_shipments": "59,600"
     },
     {
-      "jurisdiction": "North Dakota***",
+      "jurisdiction": "North Dakota",
       "hhs_region": "Region 8",
       "doses_allocated_week_12_21": "13,200",
       "second_dose_shipment_12_21": "13,200",
@@ -1058,7 +1058,7 @@
       "total_allocation_moderna_second_dose_shipments": "47,500"
     },
     {
-      "jurisdiction": "Utah***",
+      "jurisdiction": "Utah",
       "hhs_region": "Region 8",
       "doses_allocated_week_12_21": "47,800",
       "second_dose_shipment_12_21": "47,800",
@@ -1102,7 +1102,7 @@
       "total_allocation_moderna_second_dose_shipments": "32,700"
     },
     {
-      "jurisdiction": "Arizona***",
+      "jurisdiction": "Arizona",
       "hhs_region": "Region 9",
       "doses_allocated_week_12_21": "119,400",
       "second_dose_shipment_12_21": "119,400",
@@ -1190,7 +1190,7 @@
       "total_allocation_moderna_second_dose_shipments": "163,100"
     },
     {
-      "jurisdiction": "American Samoa**",
+      "jurisdiction": "American Samoa",
       "hhs_region": "Region 9",
       "doses_allocated_week_12_21": "2,400",
       "second_dose_shipment_12_21": "N/A",
@@ -1212,7 +1212,7 @@
       "total_allocation_moderna_second_dose_shipments": "0"
     },
     {
-      "jurisdiction": "Guam**",
+      "jurisdiction": "Guam",
       "hhs_region": "Region 9",
       "doses_allocated_week_12_21": "7,600",
       "second_dose_shipment_12_21": "N/A",
@@ -1234,7 +1234,7 @@
       "total_allocation_moderna_second_dose_shipments": "0"
     },
     {
-      "jurisdiction": "Marshall Islands*",
+      "jurisdiction": "Marshall Islands",
       "hhs_region": "Region 9",
       "doses_allocated_week_12_21": "7,200",
       "second_dose_shipment_12_21": "N/A",
@@ -1256,7 +1256,7 @@
       "total_allocation_moderna_second_dose_shipments": "0"
     },
     {
-      "jurisdiction": "Micronesia*",
+      "jurisdiction": "Micronesia",
       "hhs_region": "Region 9",
       "doses_allocated_week_12_21": "9,800",
       "second_dose_shipment_12_21": "N/A",
@@ -1278,7 +1278,7 @@
       "total_allocation_moderna_second_dose_shipments": "0"
     },
     {
-      "jurisdiction": "Mariana Islands**",
+      "jurisdiction": "Mariana Islands",
       "hhs_region": "Region 9",
       "doses_allocated_week_12_21": "2,600",
       "second_dose_shipment_12_21": "N/A",
@@ -1300,7 +1300,7 @@
       "total_allocation_moderna_second_dose_shipments": "0"
     },
     {
-      "jurisdiction": "Palau*",
+      "jurisdiction": "Palau",
       "hhs_region": "Region 9",
       "doses_allocated_week_12_21": "2,800",
       "second_dose_shipment_12_21": "N/A",
@@ -1322,7 +1322,7 @@
       "total_allocation_moderna_second_dose_shipments": "0"
     },
     {
-      "jurisdiction": "Alaska***",
+      "jurisdiction": "Alaska",
       "hhs_region": "Region 10",
       "doses_allocated_week_12_21": "26,800",
       "second_dose_shipment_12_21": "26,800",
@@ -1366,7 +1366,7 @@
       "total_allocation_moderna_second_dose_shipments": "90,900"
     },
     {
-      "jurisdiction": "Oregon***",
+      "jurisdiction": "Oregon",
       "hhs_region": "Region 10",
       "doses_allocated_week_12_21": "72,100",
       "second_dose_shipment_12_21": "72,100",
@@ -1388,7 +1388,7 @@
       "total_allocation_moderna_second_dose_shipments": "233,900"
     },
     {
-      "jurisdiction": "Washington***",
+      "jurisdiction": "Washington",
       "hhs_region": "Region 10",
       "doses_allocated_week_12_21": "128,000",
       "second_dose_shipment_12_21": "128,000",
@@ -1410,7 +1410,7 @@
       "total_allocation_moderna_second_dose_shipments": "415,000"
     },
     {
-      "jurisdiction": "Federal Entities ****",
+      "jurisdiction": "Federal Entities ",
       "hhs_region": "N/A",
       "doses_allocated_week_12_21": "298,200",
       "second_dose_shipment_12_21": "289,200",
